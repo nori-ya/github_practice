@@ -1,0 +1,67 @@
+<?php
+//フッター部分に解析タグを挿入したいときはこのテンプレートに挿入
+//子テーマのカスタマイズ部分を最小限に抑えたい場合に有効なテンプレートとなります。
+?>
+<!--
+<div class="consulfirm-pc">
+    <div class="consulfirm-banner">
+        <table>
+            <tr>
+                <td>
+                    お問い合わせ
+                </td>
+                <td>
+                    <i class="fas fa-phone-volume"></i>03-6338-4938
+                </td>
+                <td>
+                    <a href="https://xn--tcke6n4a0148axq2d.jp/funeral-association/" >
+                        <div>
+                            <img src="https://xn--tcke6n4a0148axq2d.jp/wp-content/uploads/2021/01/mail-icon.png">メールでお問い合わせ　<i class="far fa-caret-square-right"></i>
+                        </div>
+                    </a>
+                </td>
+                <td>
+                    <a href="https://葬儀経営コンサル.jp" target="_blank">
+                        <div>
+                            <img src="https://xn--tcke6n4a0148axq2d.jp/wp-content/uploads/2021/01/endingsouken-banner.png" >
+                        </div>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+-->
+<!--
+<div class="consulfirm-smapho">
+    <div class="consulfirm-banner">
+        <div class="consulfirm-banner-member1">
+            <div class="consulfirm-banner-member1-1">
+                    お問い合わせ
+            </div>
+            <div class="consulfirm-banner-member1-2">
+                <a href="tel:03-6338-4938" ><i class="fas fa-phone-volume"></i>03-6338-4938</a>
+            </div>
+            <div class="consulfirm-banner-member1-3">
+                <a href="https://xn--tcke6n4a0148axq2d.jp/funeral-association/" >
+                    <div>
+                        <img src="https://xn--tcke6n4a0148axq2d.jp/wp-content/uploads/2021/01/mail-icon.png">メールでお問い合わせ<i class="far fa-caret-square-right"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="consulfirm-banner-member2">
+            <a href="https://葬儀経営コンサル.jp" target="_blank">
+                <div>
+                    <img src="https://xn--tcke6n4a0148axq2d.jp/wp-content/uploads/2021/01/endingsouken-banner-smapho.png" >
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+-->
+<?php if (!is_user_administrator()) :
+//管理者を除外してカウントする場合は以下に挿入 ?>
+
+<?php endif; ?>
+<?php //全ての訪問者をカウントする場合は以下に挿入 ?>
